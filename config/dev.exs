@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :faildeck, Faildeck.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "faildeck",
+  password: "imasecretipromise",
   hostname: "localhost",
   database: "faildeck_dev",
   stacktrace: true,
