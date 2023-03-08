@@ -1,0 +1,6 @@
+<main>
+  <div :for={{_id, project} <- @streams.projects}>
+    <p><%= project.key %></p>
+    <p><%= project.name %></p>
+  </div>
+</main>

@@ -20,7 +20,7 @@ defmodule FaildeckWeb.Router do
   scope "/", FaildeckWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", ProjectLive.Overview, :home
   end
 
   # Other scopes may use custom stacks.
